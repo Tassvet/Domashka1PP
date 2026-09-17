@@ -1,5 +1,5 @@
 import java.util.concurrent.atomic.DoubleAdder;
-
+// создаем класс Интеграл
 public class Integral {
     public static final int STEPS = 10_000_000;
     public static final int THREADS = 6;
