@@ -483,7 +483,7 @@ class P1DiningPhilosophersHomework {
     }
 
     /*
-     * Вывод, означающий, что задача, скорее всего, решена правильно:
+
      * OK: every philosopher ate 100 times, no deadlock detected
      */
 }

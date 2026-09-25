@@ -1,3 +1,5 @@
+package PPdoma1;
+
 import java.util.concurrent.atomic.DoubleAdder;
 // создаем класс Интеграл
 public class Integral {
@@ -216,9 +218,9 @@ public class Integral {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        runTest("Integral 1: x^3 on [0, 2]", 0.0, 2.0, 1);
+        runTest("PPdoma1.Integral 1: x^3 on [0, 2]", 0.0, 2.0, 1);
         runTest(
-                "Integral 2: sin(x) * cos(x) + sqrt(x + 1) + ln(x + 1) on [0, 10]",
+                "PPdoma1.Integral 2: sin(x) * cos(x) + sqrt(x + 1) + ln(x + 1) on [0, 10]",
                 0.0,
                 10.0,
                 2
