@@ -77,7 +77,7 @@ public class Mandelbrot {
         System.out.println("Время работы: " + (endTime - startTime) + " мс");
     }
 
-    // Проверяет, входит ли пиксель в множество Мандельброта
+    // Проверяет входит ли пиксель в множество Мандельброта
     static boolean isInMandelbrot(int pixelX, int pixelY) {
 
         // Переводим координаты пикселя в обычные координаты
